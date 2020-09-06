@@ -11,6 +11,7 @@ Overall, 2017 seems to be a much better year for stocks than 2018. In 2017, only
 ###Refactoring the Code
 The original code did not use variables for total volume, starting price and ending price. This made the software use a formula to determine the ticker as a string and compute the return and stock volume within a for and if nest. In this code, we set arrays for the start and end prices of each stock for the year, as well as an array for the volume. These arrays referenced an index value that was set for each stock. Running the program took approximately 0.01 seconds for both 2017 and 2018 years.
 
+
 ![2017](resources/2017.png)
 ![2018](resources/2018.png)
 
